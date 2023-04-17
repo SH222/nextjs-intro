@@ -1,0 +1,9 @@
+/* 상시 적용 속성 */
+.link {
+  text-decoration: none;
+}
+
+/* 조건부 속성 */
+.active {
+  color: "orange";
+}
