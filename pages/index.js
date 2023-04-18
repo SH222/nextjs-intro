@@ -1,11 +1,9 @@
-import NavBar from "@/conponents/NavBar";
-import { useState } from "react";
+import Seo from "@/conponents/Seo";
 
 export default function Home() {
-  const [counter, setCounter] = useState(0);
-
   return (
     <div>
+      <Seo title="Home" />
       <h1>HELLO</h1>
     </div>
   );
